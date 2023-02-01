@@ -3,6 +3,10 @@
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
+/**
+ * first test comment
+ */
+
 define('LARAVEL_START', microtime(true));
 
 /*
@@ -43,6 +47,10 @@ require __DIR__.'/../vendor/autoload.php';
 | to this client's browser, allowing them to enjoy our application.
 |
 */
+
+/**
+ * test
+ */
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
